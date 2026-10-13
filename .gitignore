@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# MySQL database files
+mysql-data/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Backup files
+*.sql
+*.sql.gz
+*.zip
+mysql-data/
